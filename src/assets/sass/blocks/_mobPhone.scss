@@ -1,0 +1,51 @@
+.ball {
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+  position: fixed;
+  text-align: center;
+  bottom: 20px;
+  right: 20px;
+}
+.ball button{
+  background-color: #304C94;
+  border-radius: 50%;
+  border: 0;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  padding: 10px;
+  z-index: 1;
+}
+button:focus{
+  outline: none;
+}
+.ball::after{
+  content: "";
+  position: absolute;
+  margin: auto;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #304C94;
+  display: inline-block;
+  z-index: -1;
+  animation-name: wave;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes wave{
+  0%{
+    opacity: 1;
+    transform: scale(1);
+  }
+  100%{
+    opacity: 0;
+    transform: scale(1.2);
+  }
+}
+button img{
+  width: 100%;
+  height: 100%;
+}

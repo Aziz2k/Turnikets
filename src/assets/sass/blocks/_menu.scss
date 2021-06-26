@@ -1,0 +1,82 @@
+.menu {
+  a{
+    color: #ffffff;
+  }
+  display: flex;
+  align-items: center;
+  .logo{
+    padding: 12px 22px;
+    a.l__link{
+      font-size: 36px;
+      font-family: 'roboto-b';
+      color: #000;
+      margin-right: 22px;
+    }
+  }
+  .ulmenu{
+    background: #304C94;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 32px 23px 25px;
+    font-family: 'roboto-r';
+    font-style: 12px;
+    ul{
+      display: flex;
+      align-items: center;
+      li{
+        margin-right: 34px;
+        color: #fff;
+        position: relative;
+        &:hover{
+          &:after{
+            width: 100%;
+          }
+        }
+        &::after{
+          content: '';
+          display: inline-block;
+          height: 2px;
+          width: 0%;
+          transition: 0.5s;
+          background: #ffffff;
+          bottom: -5px;
+          left: 0;
+          position: absolute;
+        }
+      }
+    }
+  }
+  .phone__btn{
+    display: flex;
+    align-items: center;
+    &--btnSrc{
+      width: 69px;
+      height: 67px;
+      background: #4467C0;
+      transition: 0.5s;
+      &:hover{
+        background: #fff;
+        path{
+          fill:  #4467C0;
+        }
+      }
+    }
+    &--button{
+      width: 140px;
+      height: 67px;
+      color: #fff;
+      background: #304C94;
+      transition: 0.5s;
+      font-family: 'roboto-b';
+      z-index: 2;
+      &:hover{
+        background: #fff;
+        color:  #304C94;
+      }
+    }
+    &--mob{
+      display: none;
+    }
+  } 
+}

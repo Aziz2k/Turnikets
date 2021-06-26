@@ -1,0 +1,713 @@
+@media (max-width: 1025px ) {
+  .menu{
+    .logo{
+      padding: 10px;
+      a{
+        margin-right: unset;
+      }
+    }
+    .ul__menu {
+      ul{
+        li{
+          margin-right: 20px;
+        }
+      }
+    }
+    .ulmenu{
+      ul{
+        li{
+          margin-right: 18px;
+        }
+      }
+    }
+  }
+  .bg__img{
+    height: 400px;
+    background-size: cover;
+    .container__textContent{
+      padding-left: 20px;
+      &--big_title{
+        margin-top: 50px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .partners{
+    padding-top: 20px;
+    padding-left: 20px;
+    .buttons{
+      display: none;
+    }
+    .links{
+      display: flex;
+      overflow: auto;
+    }
+  }
+  .about__compain{
+    padding: 20px;
+    .row .col-6.col-md-12.col-xs-12 .item .col-6.col-md-6.col-xs-6 .item .box{
+      padding: 44px 10px 31px;
+    }
+  }
+  .product{
+    &__item{
+      padding: 30px 20px;
+    }
+    &__link {
+      .img__links{
+        width: unset;
+      }
+    }
+  }
+  .news{
+    margin-top: 130px;
+    padding: 0px 20px;
+    margin-bottom: 60px;
+    &__title{
+      margin-bottom: 20px;
+    }
+    .row{
+      .box{
+        &__img{
+          img{
+            width: 315px;
+          }
+        }
+      }
+    }
+  }
+  .question{
+    &__img{
+      padding: 31px 0px 0px 20px;
+    }
+  }
+  footer{
+    .footer__item{
+      padding: 30px 20px;
+    }
+    .copyright{
+      padding: 20px;
+    }
+  }
+  .content{
+    .big__title{
+      padding: 20px;
+    }
+    .title .container{
+      padding: 0px 20px;
+    }
+    .bg_img{
+      .container{
+        .row{
+          padding-left: 10px;
+          padding-right: 10px;
+          .box{
+            width: 235px;
+            padding-left: unset;
+          }
+        }
+      }
+    }
+  }
+  .conten{
+    .big__title{
+      padding:20px;
+      .container{
+        padding: unset;
+      }
+    }
+    .container{
+      padding: 0px 20px;
+      .row{
+        .item{
+          .box{
+            padding: 30px;
+            &__icon{
+              z-index: 1;
+              bottom: -98px;
+              right: -20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .new{
+    .container{
+      padding: 0px 20px;
+      .row{
+        .item{
+          .box{
+            &__img{
+              img{
+                width: 315px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .contacts{
+    .big__title,
+    .container{
+      padding: 20px 20px;
+    }
+  }
+}
+@media (max-width:769px) {
+  .menu{
+    .phone__btn{
+      .input{
+        height: 60px;
+        width: 475px;
+        input{
+          width: 455px;
+        }
+        &.show{
+          right: 190px;
+        }
+      }
+        &--phone{
+        display: none;
+        }
+    }
+    .logo{
+      padding: 5px;
+      a.l__link{
+        margin-right: unset;
+      }
+    }
+    .ul__menu{
+      padding: 20px 11px 21px;
+      ul{
+        li{
+          margin-right: 13px;
+        }
+      }
+    }
+    .ulmenu{
+      padding: 20px 11px 21px;
+      ul{
+        li{
+          margin-right: 13px;
+        }
+      }
+    }
+    .phone__btn{
+      &--btnSrc{
+        width: 60px;
+        height: 60px;
+      }
+      &--btn{
+        height: 60px;
+        width: 130px;
+      }
+      &--Src{
+        width: 60px;
+        height: 60px;
+      }
+      &--button{
+        height: 60px;
+        width: 130px;
+      }
+    }
+  }
+  .bg__img{
+    .container__textContent{
+      &--big_title{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 56px;
+      }
+      &--text{
+        font-size: 16px;
+      }
+    }
+  }
+  .about__compain{
+    .row{
+      .col-6.col-md-12.col-xs-12{
+        .item{
+          &__title{
+            margin-top: 16px;
+          }
+          &__text{
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+  .product{
+    &__content{
+      flex-wrap: wrap;
+    }
+    &__title{
+      margin-bottom: 15px;
+    }
+    &__link{
+      margin-top: -25px;
+      .row{
+        flex-wrap: nowrap;
+        overflow: auto;
+        .col-md-6{
+          .img__links{
+            width: 275px;
+            &:hover{
+              transform: unset;
+            }
+          }
+        }
+      }
+    }
+  }
+  .news{
+    margin-top: 178px;
+    .row{
+      flex-wrap: nowrap;
+      overflow: auto;
+      .col-4.col-md-12.col-xs-12{
+        padding: 0px 15px;
+      }
+    }
+  }
+  .content{
+    .bg_img{
+      margin-bottom: 170px;
+      .container{
+        .item{
+          .box{
+            margin-top: 10px;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+    &__bcontent{
+      .title,
+      ul,
+      .decs,
+      .img{
+        padding: 0px 20px;
+      }
+    }
+  }
+  .conten{
+    .container{
+      .row{
+        .item{
+          .box__img--text{
+            display: flex;
+            flex-wrap: wrap;
+            &__text{
+              margin-left: unset;
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+      .about__text{
+        margin-top: 30px;
+      }
+    }
+  }
+  .view{
+    &__textContent{
+      padding: 0px 20px;
+    }
+  }
+  .stadium{
+    .ball{
+      display: block;
+    }
+  }
+  
+}
+@media (max-width:767px) {
+  .menu{
+    .ulmenu,
+    .ul__menu{
+      ul{
+        flex-direction: column;
+        align-items: center;
+        li{
+          margin: 15px 0px;
+        }
+      }
+      &.active{
+        height: 100%;
+        top: 0;
+      }
+      position: fixed;
+      transition: 0.5s;
+      align-items: center;
+      justify-content: center;
+      height: 0%;
+      overflow: hidden;
+      z-index: 3;
+      background: #304C94;
+      top: -45px;
+      left: 0;
+      a{
+        color: #ffffff;
+      }
+    }
+    .ulmenu{
+      &.active{
+        height: 100%;
+        top: 0;
+      }
+    }
+    .phone__btn{
+      margin-left: auto;
+      &--button,
+      &--btn{
+        display: none;
+      }
+      &--mob{
+        display: flex;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        background: #304C94;
+        z-index: 5;
+        span{
+          width: 40px;
+          height: 2px;
+          background: #ffffff ;
+          display: inline-block;
+          position: relative;
+          margin: auto;
+          &::before,
+          &::after{
+            content: '';
+            height: 2px;
+            width: 100%;
+            background: #ffffff;
+            position: absolute;
+            top: 8px;
+            left: 0;
+            display: inline-block;
+          }
+          &::before{
+            top: -8px;
+          }
+        }
+      }
+      &--Src,
+      &--btnSrc{
+        z-index: 5;
+        background: #304C94;
+        &:hover{
+          background: #304C94;
+          path{
+            fill: #ffffff;
+          }
+        }
+      }
+      .input{
+        background: #304C94;
+        &.show{
+          right: 120px;
+        }
+      }
+    }
+  }
+}
+@media (max-width:426px) {
+  .menu{
+    .phone__btn{
+      .input{
+        width: 200px;
+        input{
+          width: 180px;
+        }
+      }
+    }
+  }
+  .bg__img{
+    background-size: cover;
+    background-position: center center;
+    .container__textContent{
+      padding-left: 15px;
+      &--big_title{
+        font-size: 44px;
+      }
+      &--text{
+        font-size: 14px;
+      }
+      &--net{
+        display: none;
+      }
+      &--btn__link{
+        .btn{
+          height: 50px;
+          width: 170px;
+        }
+      }
+    }
+  }
+  .partners{
+    padding-left: 15px;
+    .container{
+      flex-wrap: wrap;
+      .big_title{
+        text-align: center;
+        margin: auto;
+        .big{
+          font-size: 32px;
+        }
+      }
+      .links{
+        margin-top: 25px;
+      }
+    }
+  }
+  .about__compain{
+    padding: 15px;
+    .container{
+      .row{
+        .col-6.col-md-12.col-xs-12{
+          .item{
+            &__title{
+              font-size: 32px;
+            }
+          }
+          .col-6.col-md-6.col-xs-6{
+            .item{
+              margin-left: -10px;
+              .box{
+                &__text{
+                  font-size: 12px;
+                  height: 50px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .product{
+    &__item{
+      padding: 15px;
+    }
+    &__title{
+      font-size: 16px;
+      text-align: center;
+      margin: auto;
+      span{
+        font-size: 32px;
+      }
+    }
+    &__text{
+      margin-top: 15px;
+    }
+    &__link{
+      display: none;
+    }
+  }
+  .news{
+    padding: 0px 15px;
+    margin-top: 45px;
+    &__title{
+      font-size: 32px;
+    }
+    .item__text--desc{
+      font-size: 16px;
+    }
+  }
+  .content{
+    .big__title{
+      padding: 15px;
+      height: unset;
+      .container{
+        .title{
+          font-size: 23px;
+        }
+        .count{
+          font-size: 12px;
+        }
+      }
+    }
+    .bg_img{
+      .container{
+        .item{
+          .box{
+            width: 185px;
+            &__title{
+              font-size: 32px;
+              svg{
+                transform: scale(0.7);
+              }
+            }
+            &__text{
+              font-size: 12px;
+              width: unset;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+    .title{
+      .container{
+        padding: 15px;
+      }
+    }
+    &__bcontent{
+      .img{
+        flex-wrap: wrap;
+        padding: 0px 15px;
+        &__text{
+          margin-left: unset;
+          margin-top: 10px;
+        }
+      }
+      ul{
+        li{
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  .conten{
+    .container{
+      padding: 0px 15px;
+      overflow: hidden;
+      .content__text{
+        font-size: 14px;
+      }
+      .row{
+        .col-12{
+          padding: unset;
+        }
+        .item{
+          .box{
+            padding: 20px;
+            &__title{
+              font-size: 32px;
+            }
+            &__img--text{
+              margin-top: 10px;
+              img{
+                width: 100%;
+              }
+              &__text{
+                font-size: 14px;
+                line-height: 22px;
+              }
+            }
+            svg{
+              transform: scale(0.6);
+            }
+          }
+        }
+      }
+      .about__text{
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+    .big__title{
+      height: unset;
+      padding: 15px;
+      .container{
+        .title{
+          font-size: 32px;
+        }
+        .count{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .new{
+    .big__title{
+      padding: 15px;
+      height: unset;
+      .container{
+        padding: unset;
+        .title{
+          font-size: 32px;
+        }
+        .count{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .view{
+    .big__title{
+      padding: 15px;
+      height: unset;
+      .container{
+        .count{
+          font-size: 12px;
+          min-width: unset;
+        }
+      }
+    }
+    &__title{
+      width: unset;
+      font-size: 18px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    &__bg--img{
+      height: 110px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    &__textContent{
+      padding: 0px 15px;
+      .text{
+        margin-top: 20px;
+      }
+    }
+  }
+  .contacts{
+    .big__title{
+      padding: unset;
+      height: unset;
+      .container{
+        .title{
+          font-size: 32px;
+        }
+        .count{
+          font-size: 12px;
+        }
+      }
+    }
+    .container{
+      padding: 15px;
+      
+    }
+  }
+
+  footer{
+    .footer__item{
+      padding: 20px 15px;
+      height: unset;
+      &--menu{
+        .ul_menu{
+          flex-wrap: wrap;
+          .ul__title{
+            margin-bottom: 15px;
+            .list{
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+    .copyright{
+      padding: 15px;
+      font-size: 11px;
+      line-height: 14px;
+    }
+  }
+}
+

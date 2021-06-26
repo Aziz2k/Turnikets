@@ -1,0 +1,97 @@
+body,*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'roboto-b';
+  src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face {
+  font-family: 'roboto-r';
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: 'roboto-m';
+  src: url('../fonts/Roboto-Medium.ttf');
+}
+@font-face {
+  font-family: 'roboto-l';
+  src: url('../fonts/Roboto-Light.ttf');
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style-type: none;
+}
+button{
+  border: 0;
+  cursor: pointer;
+  &:focus{
+  outline: unset;
+  }
+}
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+body{
+  width: 100%;
+  font-family: 'roboto-r';
+}
+.row{
+  display: flex;
+  flex-wrap: wrap
+}
+.stadium{
+  .ball{
+    display: none;
+  }
+}
+.phone__btn{
+  .input{
+    align-items: center;
+    display: flex;
+    position: fixed;
+    height: 67px;
+    width: 270px;
+    background: #4467C0;
+    right: -500px;
+    transition: 0.5s;
+    padding-left: 10px;
+    padding-right: 10px;
+    &.show{
+      right: 209px;
+      transition: 0.5s;
+    }
+  input{
+    display: block;
+    position: fixed;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border: 0;
+    &:focus{
+      outline: none;
+    }
+  }
+}
+}
+@import 'blocks/menu';
+@import 'blocks/about/content';
+@import 'blocks/service/conten';
+@import 'blocks/news/new';
+@import 'blocks/view/view';
+@import 'blocks/contact/contacts';
+@import 'blocks/bgpartners';
+@import 'blocks/about';
+@import 'blocks/header';
+@import 'blocks/flex';
+@import 'blocks/product';
+@import 'blocks/news';
+@import 'blocks/footer';
+@import 'blocks/modal';
+
+@import 'blocks/media';

@@ -1,0 +1,35 @@
+.news{
+  margin-top: 178px;
+  background: #FCFCFC;
+  padding-bottom: 92px;
+  .item{
+    margin-left: -10px;
+    &__text{
+      &--data{
+        color: #304C94;
+        font-size: 10px;
+        line-height: 20px;
+        margin-bottom: 4px;
+      }
+      &--desc{
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 31px;
+        font-family: 'roboto-m';
+      }
+      &--link{
+        font-size: 14px;
+        line-height: 20px;
+        a{
+          color: #304C94;
+        }
+      }
+    }
+  }
+  &__title{
+      color: #304C94;
+      font-family: 'roboto-b';
+      font-size: 36px;
+      margin-bottom: 30px;
+  }
+}
